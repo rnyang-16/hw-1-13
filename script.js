@@ -13,18 +13,17 @@ for(i = 0; i <time_blocks.length; i ++){
     newTimeBlockTextDiv.attr("class", "col-sm-10");
     var newTimeBlockTextArea = $("<textarea>");
     newTimeBlockTextArea.attr("id","textarea-" + i.toString());
-    newTimeBlockTextArea.attr("class", "w-100");
-    newTimeBlockTextArea.attr("class", "h-100");
+    newTimeBlockTextArea.attr("style","min-width: 100%; min-height: 100%");
     newTimeBlockTextDiv.append(newTimeBlockTextArea);
     newTimeblockRowDiv.append(newTimeBlockTextDiv);
 
     var newTimeBlockBtnDiv = $("<div>");
     newTimeBlockBtnDiv.attr("class", "col-sm-1");
     var newBlockBtn = $("<button>");
+    newBlockBtn.text("Save");
     newBlockBtn.attr("class", "saveBtn");
     newBlockBtn.attr("index",i.toString());
-    newBlockBtn.attr("style","min-width: 100%");
-    newBlockBtn.attr("style", "min-height: 100%");
+    newBlockBtn.attr("style","min-width: 100%; min-height: 100%");
     newTimeBlockBtnDiv.append(newBlockBtn);
     newTimeblockRowDiv.append(newTimeBlockBtnDiv);
 
