@@ -4,14 +4,6 @@
 
 This is a calendar application that allows the user to save events for each hour of the day. Near the top of the calendar, the application displays the current day. Additionally, each hour can be color coded to reflect whether the time slot is in the past, the present, or the future. This will change depending on the time of day. Users should input the events in the text area and click on the save button so the events can be saved.
 
-## Installation
-
-Clone this repo
-
-git clone https://github.com/rnyang-16/hw-1-6
-
-and open index.html in your favorite browser.
-
 
 ## Usage 
 
